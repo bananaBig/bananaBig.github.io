@@ -1,3 +1,7 @@
+.head{
+	box-shadow: 0 2px 8px #F1F1F1;
+}
+
 .topnav{
 	height: 30px;
 	background: #eee;
