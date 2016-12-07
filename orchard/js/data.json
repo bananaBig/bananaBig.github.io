@@ -1,0 +1,17 @@
+{
+	"10001":{
+		"goods-id": 10001,
+		"goods-name": "精选红心火龙果",
+		"goods-price": "￥59.00",
+		"goods-standard": "4斤",
+		"stock": 50
+	},
+	
+	"20002":{
+		"goods-id": 20002,
+		"goods-name": "黑心小西瓜",
+		"goods-price": "￥59.00",
+		"goods-standard": "4斤",
+		"stock": 50
+	}
+}

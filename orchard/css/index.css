@@ -142,9 +142,12 @@ body {
 	position: absolute;
 	left: 0;
 	top: 0;
+	width: 248px;
+	height: 248px;
+	overflow: hidden;
 }
 
-.fruit-kinds .pro_list a:hover{
+.fruit-kinds .pro_list img:hover{
 	width: 300px;
 	height: 300px;
 	margin-top: -30px;
