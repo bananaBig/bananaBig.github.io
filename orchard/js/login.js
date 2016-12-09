@@ -75,8 +75,8 @@ $(function(){
 				){
 					alert( '信息错误')
 				}else{
-					console.log( $( '.phone' || '.password' || '.checkPaw' || '.vertify-user' ).val().length == 0 )
-					console.log( $( '.phone,.password,.checkPaw,.vertify-user' ).hasClass('hasError') )
+					/*console.log( $( '.phone' || '.password' || '.checkPaw' || '.vertify-user' ).val().length == 0 )
+					console.log( $( '.phone,.password,.checkPaw,.vertify-user' ).hasClass('hasError') )*/
 					$.cookie( "user",that.phone.val(),{expires:10,path: '/'});
 					$.cookie( "password",that.paw.val(),{expires:10,path: '/'});
 					console.log( $.cookie('user') );

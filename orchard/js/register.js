@@ -54,6 +54,7 @@ $(function(){
 				}else{
 					that.phone.next().show();
 					that.paw.next().show();
+					that.submit.attr('href','index.html')
 				};
 				
 				/*$('.yanZ').show();

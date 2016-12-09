@@ -115,13 +115,13 @@ $(function(){
 				var cart = $.cookie('orchard')|| '{}';
 				cart = JSON.parse( cart);
 				
-				if( !cart.goods){
-					cart.goods = {
+				if( !cart[gid]){
+					cart[gid] = {
 						'goods-id': gid,
 						'num': amount
 					}
 				}else{
-					cart.goods.num+= amount;
+					cart[gid].num+= amount;
 				}
 				
 				$.cookie( 'orchard' , JSON.stringify( cart ), {expires:365,path: '/'})

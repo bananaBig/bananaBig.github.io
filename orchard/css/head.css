@@ -284,6 +284,7 @@
 .head .container .nav-right{
 	position: relative;
 	float: right;
+	width: 260px;
 	margin-top: 20px;
 }
 
@@ -311,6 +312,10 @@
 .head .container .hotsearch{
 	position: absolute;
 	top: 25px;
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 
 .head .container .img-wrapper{

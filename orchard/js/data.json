@@ -1,17 +1,19 @@
 {
 	"10001":{
 		"goods-id": 10001,
-		"goods-name": "精选红心火龙果",
-		"goods-price": "￥59.00",
-		"goods-standard": "4斤",
-		"stock": 50
+		"goods-name": "精选黑心火龙果",
+		"goods-price": 24.00,
+		"goods-standard": "5斤",
+		"stock": 50,
+		"color": "imgs/cart/t1.jpg"
 	},
 	
 	"20002":{
 		"goods-id": 20002,
 		"goods-name": "黑心小西瓜",
-		"goods-price": "￥59.00",
+		"goods-price": 59.00,
 		"goods-standard": "4斤",
-		"stock": 50
+		"stock": 50,
+		"color": "imgs/cart/t2.jpg"
 	}
 }

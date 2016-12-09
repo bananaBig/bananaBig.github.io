@@ -9,6 +9,11 @@
 	font: 12px/30px "微软雅黑";
 }
 
+
+.topnav .content{
+	width: 1280px;
+	margin:  0 auto;
+}
 /*顶部导航左*/
 .topnav .content .pull-left{
 	position: relative;
@@ -226,6 +231,8 @@
 
 
 .head .container{
+	width: 1280px;
+	margin: 0 auto;
 	height: 80px;
 	padding: 20px 15px;
 }
